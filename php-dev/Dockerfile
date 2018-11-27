@@ -1,4 +1,4 @@
-FROM php-fpm-base
+FROM moisesdeguia/php:base
 
 # install xdebug
 RUN pecl install xdebug \
